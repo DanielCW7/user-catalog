@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} alt="logo" className="App-logo"/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -50,7 +50,7 @@ function App() {
           {/* file upload */}
 
           {/* user name */}
-          <input type="text" id="userField" name="userField"/>
+          <input type="text" id="userField" name="userField" className='border-8 border-red-300 rounded-full m-2'/>
           
           {/* employed status */}
           {/* toggle switch */}
