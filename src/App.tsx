@@ -50,7 +50,7 @@ function App() {
           {/* file upload */}
 
           {/* user name */}
-          <input type="text" id="userField" name="userField" className='border-8 border-red-300 rounded-full m-2'/>
+          <input type="text" id="userField" name="userField" className='input input-bordered'/>
           
           {/* employed status */}
           {/* toggle switch */}
