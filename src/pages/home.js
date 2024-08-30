@@ -1,13 +1,13 @@
 
-
 const Home = () => {
+    
     return (
         <div className="App h-screen flex flex-col justify-center">
             <header>
                 <h1 className='font-black font-xl'> Welcome! </h1>
                 <p className='text-sm '> Sign up and join our fancy shmancy club! </p>
             </header>
-            <body className="mx-auto w-full max-w-md flex flex-col justify-center">
+            <div className="mx-auto w-full max-w-md flex flex-col justify-center">
                 <form className='w-full max-w-lg mt-8'>
                     <p className='text-xs text-gray-400 m-2'> Returning user? Sign back in. </p>
                     <div className='flex flex-col gap-4'>
@@ -37,7 +37,7 @@ const Home = () => {
                         <a href='/signup'><button className='btn btn-wide btn-sm'> Sign up </button> </a>
                     </div>             
                 </div>                
-            </body>   
+            </div>   
        </div>
     )
 }

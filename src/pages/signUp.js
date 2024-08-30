@@ -7,9 +7,9 @@ const SignUp = () => {
                 <h1 className='font-black font-xl'> Welcome! </h1>
                 <p className='text-sm '> Sign up and join our fancy shmancy club! </p>
             </header>
-            <body>
+            <div>
                 <SignUpForm />                
-            </body>
+            </div>
 
         </div>
     )
